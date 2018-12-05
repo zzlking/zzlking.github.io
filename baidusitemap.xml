@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
+    <lastmod>2018-12-05T10:50:43.869Z</lastmod>
+    <data>
+        <display>
+        <title>博客修改日志</title>
+        <pubTime>2018-12-04T13:39:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>next</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+             
+              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogIndex.html</loc>
     <lastmod>2018-12-05T07:16:58.074Z</lastmod>
     <data>
@@ -114,13 +139,13 @@
         <title>报账备忘录</title>
         <pubTime>2018-11-16T07:10:08.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>hide</tag>
          
         <tag>随手记</tag>
          
         <tag>计财处</tag>
+         
+        <tag>琐碎</tag>
          
          
            
@@ -186,31 +211,6 @@
 
     
   <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
-    <lastmod>2018-12-04T14:40:06.515Z</lastmod>
-    <data>
-        <display>
-        <title>博客修改日志</title>
-        <pubTime>2018-12-04T13:39:15.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>next</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-             
-              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/bkhomework180920.html</loc>
     <lastmod>2018-12-04T12:01:07.033Z</lastmod>
     <data>
@@ -268,9 +268,9 @@
         <title>Hexo相关命令</title>
         <pubTime>2018-09-13T11:39:15.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>随手记</tag>
+         
+        <tag>琐碎</tag>
          
         <tag>hexo</tag>
          
@@ -296,9 +296,9 @@
         <title>开局域网</title>
         <pubTime>2018-09-14T13:39:15.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>随手记</tag>
+         
+        <tag>琐碎</tag>
          
          
            
@@ -344,9 +344,9 @@
         <title>GitLab和GitHub的同步</title>
         <pubTime>2018-09-13T08:39:15.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>随手记</tag>
+         
+        <tag>琐碎</tag>
          
         <tag>git</tag>
          
@@ -371,9 +371,9 @@
         <title>运行tensorflow出现FutureWarning</title>
         <pubTime>2018-09-20T11:39:15.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>随手记</tag>
+         
+        <tag>琐碎</tag>
          
         <tag>tensorflow</tag>
          
@@ -425,11 +425,11 @@
         <title>在ubuntu下安装Flow</title>
         <pubTime>2018-09-13T11:39:15.000Z</pubTime>
         
+        <tag>琐碎</tag>
+         
         <tag>ubuntu</tag>
          
         <tag>环境配置</tag>
-         
-        <tag>琐碎</tag>
          
          
            
