@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[博客修改日志]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogLog.html</url>
-    <content type="text"><![CDATA[记录本网站Next的所有所有修改 下载Next 6主题最简单的安装方式是直接克隆整个仓库： 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 对主题配置文件进行修改在主题目录中找到\themes\next\languages\zh_CN.yml增加 123menu: code: 学习 life: 生活 在主题目录中找到\themes\next\languages\_config.yml 12345menu: home: / || home code: /categories/学习/ || heartbeat life: /categories/生活/ || calendar categories: /categories/ || th 第78行 关闭Hexo支持，和主题 12345678910powered: # Hexo link (Powered by Hexo). enable: false # Version info of Hexo after Hexo link (vX.X.X). version: truetheme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: false # Version info of NexT after scheme info (vX.X.X). version: true 第496行 还没改以后可以改 1han: false 第839行 设置点击图片可以全屏 fancybox: true 12cd themes/nextgit clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox 第872行 背景动画 12345cd themes/nextgit clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nestcanvas_nest: enable: true 增加评论系统第530行 https://ioliu.cn/2017/add-valine-comments-to-your-blog/ basic1234567891011valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: M21sDSlu8gdmqbUdoKrXILYS-gzGzoHsz # your leancloud application appid appkey: utJA9jhdKT7UHlpONQeaBlwD # your leancloud application appkey notify: false # mail notifier , https://github.com/xCss/Valine/wiki verify: false # Verification code placeholder: 在这里留下您的问题与建议 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors&apos; for counter compatibility. Article reading statistic https://valine.js.org/visitor.html 增加字数统计在项目配置文件第708行添加 123456# 添加字数统计symbols_count_time: symbols: true time: true total_symbols: true total_time: true 增加访客人数修改第699行 12345678busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 增加首行缩进修改themes\next\layout\_partials\head\head.swig 123456789// 特定段落(标志 00SuoJin00)缩进$(&apos;p:contains(&quot;00SuoJin00&quot;)&apos;).each(function() &#123; var str = $(this).text(); if (str.match(&quot;^00SuoJin00&quot;)) &#123; var text = $(this).html(); $(this).css(&apos;text-indent&apos;, &apos;2em&apos;); $(this).html(text.replace(&apos;00SuoJin00&apos;, &apos;&apos;)); &#125;&#125;); 增加首页隐藏功能 有问题修改themes\next\layout\_partials\head\head.swig 1234567891011&#123;% block content %&#125; &lt;section id=&quot;posts&quot; class=&quot;posts-expand&quot;&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== &apos;hide&apos; %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include &apos;../pagination.swig&apos; %&#125;&#123;% endblock %&#125; 增加登陆密码修改themes\next\layout\_partials\head\head.swig 1234567891011&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if(&apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; if (prompt(&apos;请输入文章密码&apos;) !== &apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; alert(&apos;密码错误！&apos;); location.href=&apos;/&apos; &#125; &#125; &#125;)();&lt;/script&gt; 增加版权说明]]></content>
+    <content type="text"><![CDATA[记录本网站Next的所有所有修改 下载Next 6主题最简单的安装方式是直接克隆整个仓库： 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 对主题配置文件进行修改在主题目录中找到\themes\next\languages\zh_CN.yml增加 123menu: code: 学习 life: 生活 在主题目录中找到\themes\next\languages\_config.yml 12345menu: home: / || home code: /categories/学习/ || heartbeat life: /categories/生活/ || calendar categories: /categories/ || th 第78行 关闭Hexo支持，和主题 12345678910powered: # Hexo link (Powered by Hexo). enable: false # Version info of Hexo after Hexo link (vX.X.X). version: truetheme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: false # Version info of NexT after scheme info (vX.X.X). version: true 第496行 还没改以后可以改 1han: false 第839行 设置点击图片可以全屏 fancybox: true 12cd themes/nextgit clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox 第872行 背景动画 12345cd themes/nextgit clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nestcanvas_nest: enable: true 增加评论系统第530行 https://ioliu.cn/2017/add-valine-comments-to-your-blog/ basic1234567891011valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: M21sDSlu8gdmqbUdoKrXILYS-gzGzoHsz # your leancloud application appid appkey: utJA9jhdKT7UHlpONQeaBlwD # your leancloud application appkey notify: false # mail notifier , https://github.com/xCss/Valine/wiki verify: false # Verification code placeholder: 在这里留下您的问题与建议 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors&apos; for counter compatibility. Article reading statistic https://valine.js.org/visitor.html 增加文章字数统计参考教材 在项目配置文件第添加 123456# 添加字数统计symbols_count_time: symbols: true time: true total_symbols: true total_time: true 修改主题配置文件，搜索symbols_count_time，快速定位，修改成以下代码 12345symbols_count_time: separated_meta: true item_text_post: true item_text_total: false awl: 4 统计访客人数修改第699行 12345678busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 增加首行缩进修改themes\next\layout\_partials\head\head.swig 123456789// 特定段落(标志 00SuoJin00)缩进$(&apos;p:contains(&quot;00SuoJin00&quot;)&apos;).each(function() &#123; var str = $(this).text(); if (str.match(&quot;^00SuoJin00&quot;)) &#123; var text = $(this).html(); $(this).css(&apos;text-indent&apos;, &apos;2em&apos;); $(this).html(text.replace(&apos;00SuoJin00&apos;, &apos;&apos;)); &#125;&#125;); 增加首页隐藏功能 有问题修改themes\next\layout\_partials\head\head.swig 1234567891011&#123;% block content %&#125; &lt;section id=&quot;posts&quot; class=&quot;posts-expand&quot;&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== &apos;hide&apos; %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include &apos;../pagination.swig&apos; %&#125;&#123;% endblock %&#125; 增加登陆密码修改themes\next\layout\_partials\head\head.swig 1234567891011&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if(&apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; if (prompt(&apos;请输入文章密码&apos;) !== &apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; alert(&apos;密码错误！&apos;); location.href=&apos;/&apos; &#125; &#125; &#125;)();&lt;/script&gt; 增加版权说明]]></content>
       <categories>
         <category>生活</category>
         <category>工具</category>
@@ -48,10 +48,10 @@
         <category>办公</category>
       </categories>
       <tags>
-        <tag>hide</tag>
-        <tag>随手记</tag>
-        <tag>计财处</tag>
         <tag>琐碎</tag>
+        <tag>随手记</tag>
+        <tag>hide</tag>
+        <tag>计财处</tag>
       </tags>
   </entry>
   <entry>
@@ -76,9 +76,22 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>随手记</tag>
         <tag>琐碎</tag>
+        <tag>随手记</tag>
         <tag>tensorflow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[开局域网]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2F%E7%90%90%E7%A2%8E%2F%E5%B1%80%E5%9F%9F%E7%BD%91%E5%91%BD%E4%BB%A4.html</url>
+    <content type="text"><![CDATA[在命令行窗口下操作 在cmd命令行窗口下输入以下命令，对方就可以通过WiFi链接进入建立好的局域网。 前提：win10+无线网卡 123netsh wlan set hostednetwork mode=allow ssid=zconding key=12345678netsh wlan start hostednetwork]]></content>
+      <categories>
+        <category>生活</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>琐碎</tag>
+        <tag>随手记</tag>
       </tags>
   </entry>
   <entry>
@@ -91,19 +104,6 @@
       </categories>
       <tags>
         <tag>饥荒</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[开局域网]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2F%E7%90%90%E7%A2%8E%2F%E5%B1%80%E5%9F%9F%E7%BD%91%E5%91%BD%E4%BB%A4.html</url>
-    <content type="text"><![CDATA[在命令行窗口下操作 在cmd命令行窗口下输入以下命令，对方就可以通过WiFi链接进入建立好的局域网。 前提：win10+无线网卡 123netsh wlan set hostednetwork mode=allow ssid=zconding key=12345678netsh wlan start hostednetwork]]></content>
-      <categories>
-        <category>生活</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>随手记</tag>
-        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -128,9 +128,9 @@
         <category>交通仿真</category>
       </categories>
       <tags>
-        <tag>琐碎</tag>
         <tag>OSM</tag>
         <tag>SUMO</tag>
+        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -142,9 +142,9 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>随手记</tag>
         <tag>琐碎</tag>
         <tag>hexo</tag>
+        <tag>随手记</tag>
       </tags>
   </entry>
   <entry>
@@ -170,8 +170,8 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>随手记</tag>
         <tag>琐碎</tag>
+        <tag>随手记</tag>
         <tag>git</tag>
       </tags>
   </entry>
