@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[博客索引]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogIndex.html</url>
+    <content type="text"><![CDATA[记录本网站各类文章分布 机器学习入门机器学习入门（一）https://zzlking.github.io/学习/机器学习/bkhomework180914.html机器学习入门（二）https://zzlking.github.io/学习/机器学习/bkhomework180920.html交通仿真SUMO https://zzlking.github.io/学习/交通仿真/SUMO操作教程.htmlFlow https://zzlking.github.io/学习/交通仿真/Install_FLow.html读书笔记《人类简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《未来简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《今日简史》https://zzlking.github.io/生活/阅读/简史三部曲.html博客修改日志 https://zzlking.github.io/生活/工具/BlogLog.html]]></content>
+      <categories>
+        <category>生活</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>BolgIndex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[博客修改日志]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogLog.html</url>
+    <content type="text"><![CDATA[记录本网站Next的所有所有修改 下载Next 6主题最简单的安装方式是直接克隆整个仓库： 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 对主题配置文件进行修改在主题目录中找到\themes\next\languages\zh_CN.yml增加 123menu: code: 学习 life: 生活 在主题目录中找到\themes\next\languages\_config.yml 12345menu: home: / || home code: /categories/学习/ || heartbeat life: /categories/生活/ || calendar categories: /categories/ || th 第78行 关闭Hexo支持，和主题 12345678910powered: # Hexo link (Powered by Hexo). enable: false # Version info of Hexo after Hexo link (vX.X.X). version: truetheme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: false # Version info of NexT after scheme info (vX.X.X). version: true 第496行 还没改以后可以改 1han: false 第839行 设置点击图片可以全屏 fancybox: true 12cd themes/nextgit clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox 第872行 背景动画 12345cd themes/nextgit clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nestcanvas_nest: enable: true 增加评论系统第530行 https://ioliu.cn/2017/add-valine-comments-to-your-blog/ basic1234567891011valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: M21sDSlu8gdmqbUdoKrXILYS-gzGzoHsz # your leancloud application appid appkey: utJA9jhdKT7UHlpONQeaBlwD # your leancloud application appkey notify: false # mail notifier , https://github.com/xCss/Valine/wiki verify: false # Verification code placeholder: 在这里留下您的问题与建议 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors&apos; for counter compatibility. Article reading statistic https://valine.js.org/visitor.html 增加字数统计在第708行添加 123456789# Post wordcount display settings# Dependencies: https://github.com/willin/hexo-wordcount# 字数统计，阅读市场post_wordcount: item_text: true wordcount: true min2read: true totalcount: true separated_meta: true 增加访客人数修改第699行 12345678busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 增加首行缩进修改themes\next\layout\_partials\head\head.swig 123456789// 特定段落(标志 00SuoJin00)缩进$(&apos;p:contains(&quot;00SuoJin00&quot;)&apos;).each(function() &#123; var str = $(this).text(); if (str.match(&quot;^00SuoJin00&quot;)) &#123; var text = $(this).html(); $(this).css(&apos;text-indent&apos;, &apos;2em&apos;); $(this).html(text.replace(&apos;00SuoJin00&apos;, &apos;&apos;)); &#125;&#125;); 增加首页隐藏功能 有问题修改themes\next\layout\_partials\head\head.swig 1234567891011&#123;% block content %&#125; &lt;section id=&quot;posts&quot; class=&quot;posts-expand&quot;&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== &apos;hide&apos; %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include &apos;../pagination.swig&apos; %&#125;&#123;% endblock %&#125; 增加登陆密码修改themes\next\layout\_partials\head\head.swig 1234567891011&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if(&apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; if (prompt(&apos;请输入文章密码&apos;) !== &apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; alert(&apos;密码错误！&apos;); location.href=&apos;/&apos; &#125; &#125; &#125;)();&lt;/script&gt; 增加版权说明]]></content>
+      <categories>
+        <category>生活</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>next</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[简史三部曲]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E9%98%85%E8%AF%BB%2F%E7%AE%80%E5%8F%B2%E4%B8%89%E9%83%A8%E6%9B%B2.html</url>
+    <content type="text"><![CDATA[留坑写《人类简史》《未来简史》《今日简史》的读书笔记 ##《人类简史》 ##《未来简史》 ##《今日简史》]]></content>
+      <categories>
+        <category>生活</category>
+        <category>阅读</category>
+      </categories>
+      <tags>
+        <tag>人类简史</tag>
+        <tag>未来简史</tag>
+        <tag>今日简史</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[报账备忘录]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%8A%9E%E5%85%AC%2F%E6%8A%A5%E8%B4%A6%E5%A4%87%E5%BF%98.html</url>
     <content type="text"><![CDATA[在计财处报账需要准备的东西 报账时需要有《成信报销单》+发票+刷POS的小票 计财处报账时间：工作日的上午：上午9-11点和下午14-16点 学生代老师去报销需要带上“授权委托书”。 报销单内容： 签名齐全 备注栏需要写，姓名，工资号，和工资卡号。（张** #2848 2360） 公务卡支付的每一笔都需要在备注栏写明刷卡时间和金额 POS单小票贴在对应的发票上面，将所有的发票粘在报销单后 如果报销自行打印的书籍，需要在后面附上该打印书籍的照片。 如果单笔（发票连号，开发票的时间地点公司均一致视为一笔）报销金额超过一万元，则需要带上供销合同复印件。 如果汇款方，和所盖章上的名称有所出入（如收款为某某局盖章为某某编辑部）需要给予纸质证明。（如打印杂志的封面或扉页，找到该杂志由某某局主办）]]></content>
@@ -10,6 +49,7 @@
       </categories>
       <tags>
         <tag>琐碎</tag>
+        <tag>hide</tag>
         <tag>随手记</tag>
         <tag>计财处</tag>
       </tags>
@@ -24,6 +64,7 @@
       </categories>
       <tags>
         <tag>新手入门任务</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
   <entry>
@@ -63,6 +104,7 @@
       </categories>
       <tags>
         <tag>新手入门任务</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
   <entry>
@@ -142,11 +184,12 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>hide</tag>
         <tag>九月</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[学习计划]]></title>
+    <title><![CDATA[学期计划]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%97%A5%E8%AE%B0%2FPlanning.html</url>
     <content type="text"><![CDATA[这篇主要规划未来的一年（截止到2019年7月31号）的学习目标 00SuoJin00未来的不到一年的时间，我希望我可以掌握数据挖掘方向的一些算法。比如常用的机器学习算法，还有强化学习的算法，还希望学习一些关于深度学习的算法，最近还接触到了协同过滤算法，和基因算法。我希望以后也可以有了解。还有一件事情是我需要将我的英语能力给提上来。先将主体目录建立起来以后慢慢的充实。 望且行且珍惜，不要荒废时间。 数据挖掘 1.1常用算法机器学习算法python实现 数据方向学习笔记 数据类别不平衡 1.2深度学习1.3基因表达式强化学习David Silver强化学习公开课 强化学习相关算法的代码实现 英语面试用python实现数据结构，等面试题 最近读的论文找到的机器学习的网址ML比赛实训 http://www.apachecn.org/map/kaggle比赛数据+源码 https://github.com/apachecn/kaggle特征工程 https://github.com/apachecn/kaggle机器学习 https://github.com/apachecn]]></content>
       <categories>
@@ -167,7 +210,22 @@
         <category>日记</category>
       </categories>
       <tags>
+        <tag>hide</tag>
         <tag>Qiu-Qiu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[实验室索引]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%8A%9E%E5%85%AC%2F%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%B4%A2%E5%BC%95.html</url>
+    <content type="text"><![CDATA[实验室导师简介郑皎凌：硕士生导师 【个人简介】 郑皎凌，女，副教授，生于1981年，中共党员，研究生学历，博士学位。学习计算机专业，获计算机科学与技术专业工学博士学位。现任四川省计算机学会大数据专委会委员. 【研究方向】 1．04(全日制)智能信息处理与知识工程 2．01(全日制)大数据分析与服务 【在研项目】 四川省教育厅重点课题，虚拟社会中个体间往复交互模式挖掘及其对虚拟社团形成和发展的影响 项目负责人 【完成项目】 1．社群大规模协作认知规律和演化模型挖掘，国家自然科学基金青年基金项目，项目负责人，2015年12月完成。 基于干预技术的复杂系统可信演化模型挖掘 四川省教育厅青年基金项目，项目负责人，2013年12月完成。 【发表论文】 1、郑皎凌、唐常杰、乔少杰、杨宁、李川、陈瑜、王悦 ，基于扰动的亚复杂动力系统因果关系挖掘 ，计算机学报, 12期,pp 2548-2563, 2014/12/15 ，EI 2、郑皎凌、舒红平、许源平、乔少杰、文立玉 ，基于社群联盟的冲突消解原则求解图着色问题,电子科技大学学报(自科版)，45(1)，pp 2-16，2016/1/1，EI 3、郑皎凌、舒红平、许源平、乔少杰、文立玉 ，Cooperation Oriented Computing: A Computing Model Based on Emergent Dynamics of Group Cooperation ，Big Data Technology and Applications, 2015/12/25-2015/12/26, pp 218-233, 2015/12/25, EI 4、Jiaoling Zheng，Changjie Tang，Shaojie Qiao，Ning Yang，Yue Wang,Mining Multi-scale Intervention Rules from Time Series and Complex Network,《International Journal of Computational Intelligence Systems》 , 2011 , 4 (4) :728-738，SCI 000297795000025 实验室资料索引 本文档主要作为“实验室数据库”的一个检索目录，以及功能介绍，本数据库依托gitlab总共有三方面的功能： 《实验室数据库》的根目录是：https://gitlab.com/CUITDMLab 《实验室数据库》的“代码库”地址是：https://gitlab.com/CUITDMLab/CodeBase 《实验室数据库》的“记录相关的库”地址是：https://gitlab.com/CUITDMLab/BMdocuments 《实验室数据库》的“学习笔记”：https://gitlab.com/CUITDMLab/StudyNotes CodeBase：储存学生期间做项目，打比赛的代码与数据。 实验室代码与数据请放到GitLab群组下：https://gitlab.com/CUITDMLab/CodeBase ，另外完整的项目请单独开一个“项目”，如果是学习代码，比如像学习了《机器学习实战》自己写的课后代码也请在该目录下新建项目。 BMdocuments：记录会议记录、每位同学的工作进度（一周一次）。 会议记录：请fork在项目BMdocuments，会议记录有学生记录并由老师确认后上传到GitLab。会议记录主要写开会的内容，以及每位学生下一周的学习任务。 学生学习进度：请fork在项目BMdocuments，学生不可以修改会议记录文件夹，只可以修改学生工作文件夹中属于自己的文件。学生工作进度分为两个部分：一、老师安排任务的完成情况。二、本周的学习情况（学了什么，有什么问题？） StudyNotes：记录学习笔记，学习经验。 参考 https://github.com/Jack-Lee-Hiter/AlgorithmsByPython 将学习的总结写到库中StudyNotes 实验室学生索引研17级_张中雷 研17级_邹长杰 研18级_蒋洛锋 研18级_赵大楼]]></content>
+      <categories>
+        <category>生活</category>
+        <category>办公</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>实验室索引</tag>
+        <tag>导师介绍</tag>
       </tags>
   </entry>
 </search>
