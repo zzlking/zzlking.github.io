@@ -4,6 +4,247 @@
 
     
   <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/%E7%AE%80%E5%8F%B2%E4%B8%89%E9%83%A8%E6%9B%B2.html</loc>
+    <lastmod>2019-01-02T12:31:37.422Z</lastmod>
+    <data>
+        <display>
+        <title>简史三部曲</title>
+        <pubTime>2018-12-02T16:00:00.000Z</pubTime>
+        
+        <tag>hide</tag>
+         
+        <tag>人类简史</tag>
+         
+        <tag>未来简史</tag>
+         
+        <tag>今日简史</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+             
+              <breadCrumb title="阅读" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/02_Seara.html</loc>
+    <lastmod>2019-01-02T12:30:47.078Z</lastmod>
+    <data>
+        <display>
+        <title>Seara</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/01_Q-Learning.html</loc>
+    <lastmod>2019-01-02T12:30:45.800Z</lastmod>
+    <data>
+        <display>
+        <title>Q-Learning</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/07_A3C.html</loc>
+    <lastmod>2019-01-02T12:30:40.665Z</lastmod>
+    <data>
+        <display>
+        <title>A3C</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/06_A2C.html</loc>
+    <lastmod>2019-01-02T12:30:29.684Z</lastmod>
+    <data>
+        <display>
+        <title>A2C</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/05_DDPG.html</loc>
+    <lastmod>2019-01-02T12:30:09.145Z</lastmod>
+    <data>
+        <display>
+        <title>DDPG</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/04_AC.html</loc>
+    <lastmod>2019-01-02T12:30:02.245Z</lastmod>
+    <data>
+        <display>
+        <title>AC</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/03_DQN.html</loc>
+    <lastmod>2019-01-02T12:29:56.958Z</lastmod>
+    <data>
+        <display>
+        <title>DQN</title>
+        <pubTime>2018-12-29T14:47:06.000Z</pubTime>
+        
+        <tag>强化学习</tag>
+         
+        <tag>Q-learning</tag>
+         
+        <tag>hide</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+          
+             
+              <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogIndex.html</loc>
+    <lastmod>2018-12-29T14:57:11.354Z</lastmod>
+    <data>
+        <display>
+        <title>博客索引</title>
+        <pubTime>2995-07-28T04:00:00.000Z</pubTime>
+        
+        <tag>BolgIndex</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+             
+              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
     <lastmod>2018-12-05T14:05:30.406Z</lastmod>
     <data>
@@ -51,56 +292,6 @@
           
              
               <breadCrumb title="交通仿真" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E4%BA%A4%E9%80%9A%E4%BB%BF%E7%9C%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogIndex.html</loc>
-    <lastmod>2018-12-05T07:16:58.074Z</lastmod>
-    <data>
-        <display>
-        <title>博客索引</title>
-        <pubTime>2995-07-28T04:00:00.000Z</pubTime>
-        
-        <tag>BolgIndex</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-             
-              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/%E7%AE%80%E5%8F%B2%E4%B8%89%E9%83%A8%E6%9B%B2.html</loc>
-    <lastmod>2018-12-05T07:12:59.875Z</lastmod>
-    <data>
-        <display>
-        <title>简史三部曲</title>
-        <pubTime>2018-12-02T16:00:00.000Z</pubTime>
-        
-        <tag>人类简史</tag>
-         
-        <tag>未来简史</tag>
-         
-        <tag>今日简史</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-             
-              <breadCrumb title="阅读" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/"/>
           
         </display>
     </data>
@@ -170,11 +361,11 @@
         
         <tag>hide</tag>
          
+        <tag>琐碎</tag>
+         
         <tag>随手记</tag>
          
         <tag>计财处</tag>
-         
-        <tag>琐碎</tag>
          
          
            
@@ -297,11 +488,11 @@
         <title>Hexo相关命令</title>
         <pubTime>2018-09-13T11:39:15.000Z</pubTime>
         
+        <tag>琐碎</tag>
+         
         <tag>hexo</tag>
          
         <tag>随手记</tag>
-         
-        <tag>琐碎</tag>
          
          
            
@@ -325,9 +516,9 @@
         <title>开局域网</title>
         <pubTime>2018-09-14T13:39:15.000Z</pubTime>
         
-        <tag>随手记</tag>
-         
         <tag>琐碎</tag>
+         
+        <tag>随手记</tag>
          
          
            
@@ -373,9 +564,9 @@
         <title>GitLab和GitHub的同步</title>
         <pubTime>2018-09-13T08:39:15.000Z</pubTime>
         
-        <tag>随手记</tag>
-         
         <tag>琐碎</tag>
+         
+        <tag>随手记</tag>
          
         <tag>git</tag>
          
@@ -400,9 +591,9 @@
         <title>运行tensorflow出现FutureWarning</title>
         <pubTime>2018-09-20T11:39:15.000Z</pubTime>
         
-        <tag>随手记</tag>
-         
         <tag>琐碎</tag>
+         
+        <tag>随手记</tag>
          
         <tag>tensorflow</tag>
          
@@ -427,11 +618,11 @@
         <title>在ubuntu下安装Flow</title>
         <pubTime>2018-09-13T11:39:15.000Z</pubTime>
         
-        <tag>琐碎</tag>
-         
         <tag>ubuntu</tag>
          
         <tag>环境配置</tag>
+         
+        <tag>琐碎</tag>
          
          
            

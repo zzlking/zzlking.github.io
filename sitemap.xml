@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/%E7%AE%80%E5%8F%B2%E4%B8%89%E9%83%A8%E6%9B%B2.html</loc>
+    
+    <lastmod>2019-01-02T12:31:37.422Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/02_Seara.html</loc>
+    
+    <lastmod>2019-01-02T12:30:47.078Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/01_Q-Learning.html</loc>
+    
+    <lastmod>2019-01-02T12:30:45.800Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/07_A3C.html</loc>
+    
+    <lastmod>2019-01-02T12:30:40.665Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/06_A2C.html</loc>
+    
+    <lastmod>2019-01-02T12:30:29.684Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/05_DDPG.html</loc>
+    
+    <lastmod>2019-01-02T12:30:09.145Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/04_AC.html</loc>
+    
+    <lastmod>2019-01-02T12:30:02.245Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/03_DQN.html</loc>
+    
+    <lastmod>2019-01-02T12:29:56.958Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogIndex.html</loc>
+    
+    <lastmod>2018-12-29T14:57:11.354Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
     
     <lastmod>2018-12-05T14:05:30.406Z</lastmod>
@@ -12,20 +75,6 @@
     <loc>https://zzlking.github.io/%E5%AD%A6%E4%B9%A0/%E4%BA%A4%E9%80%9A%E4%BB%BF%E7%9C%9F/SUMO%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4.html</loc>
     
     <lastmod>2018-12-05T14:02:32.656Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogIndex.html</loc>
-    
-    <lastmod>2018-12-05T07:16:58.074Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/%E7%AE%80%E5%8F%B2%E4%B8%89%E9%83%A8%E6%9B%B2.html</loc>
-    
-    <lastmod>2018-12-05T07:12:59.875Z</lastmod>
     
   </url>
   

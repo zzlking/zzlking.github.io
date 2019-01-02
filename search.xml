@@ -3,13 +3,111 @@
   <entry>
     <title><![CDATA[博客索引]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogIndex.html</url>
-    <content type="text"><![CDATA[记录本网站各类文章分布 机器学习入门机器学习入门（一）https://zzlking.github.io/学习/机器学习/bkhomework180914.html机器学习入门（二）https://zzlking.github.io/学习/机器学习/bkhomework180920.html交通仿真SUMO https://zzlking.github.io/学习/交通仿真/SUMO操作教程.htmlFlow https://zzlking.github.io/学习/交通仿真/Install_FLow.html读书笔记《人类简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《未来简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《今日简史》https://zzlking.github.io/生活/阅读/简史三部曲.html博客修改日志 https://zzlking.github.io/生活/工具/BlogLog.html]]></content>
+    <content type="text"><![CDATA[记录本网站各类文章分布 机器学习入门机器学习入门（一）https://zzlking.github.io/学习/机器学习/bkhomework180914.html机器学习入门（二）https://zzlking.github.io/学习/机器学习/bkhomework180920.html强化学习（留坑）Q-Learning算法https://zzlking.github.io/学习/强化学习/01_Q-Learning.html Seara算法https://zzlking.github.io/学习/强化学习/02_Seara.html DQN算法https://zzlking.github.io/学习/强化学习/03_DQN.html AC算法https://zzlking.github.io/学习/强化学习/04_AC.html DDPG算法https://zzlking.github.io/学习/强化学习/05_DDPG.html A2C算法https://zzlking.github.io/学习/强化学习/06_A2C.html A3C算法https://zzlking.github.io/学习/强化学习/07_A3C.html 交通仿真SUMO https://zzlking.github.io/学习/交通仿真/SUMO操作教程.htmlFlow https://zzlking.github.io/学习/交通仿真/Install_FLow.html读书笔记《人类简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《未来简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《今日简史》https://zzlking.github.io/生活/阅读/简史三部曲.html博客修改日志 https://zzlking.github.io/生活/工具/BlogLog.html]]></content>
       <categories>
         <category>生活</category>
         <category>工具</category>
       </categories>
       <tags>
         <tag>BolgIndex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Q-Learning]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F01_Q-Learning.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[AC]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F04_AC.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[DDPG]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F05_DDPG.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[A3C]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F07_A3C.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Seara]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F02_Seara.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[DQN]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F03_DQN.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[A2C]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F06_A2C.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
       </tags>
   </entry>
   <entry>
@@ -34,6 +132,7 @@
         <category>阅读</category>
       </categories>
       <tags>
+        <tag>hide</tag>
         <tag>人类简史</tag>
         <tag>未来简史</tag>
         <tag>今日简史</tag>
@@ -49,9 +148,9 @@
       </categories>
       <tags>
         <tag>hide</tag>
+        <tag>琐碎</tag>
         <tag>随手记</tag>
         <tag>计财处</tag>
-        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -76,9 +175,22 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>随手记</tag>
         <tag>琐碎</tag>
+        <tag>随手记</tag>
         <tag>tensorflow</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[开局域网]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2F%E7%90%90%E7%A2%8E%2F%E5%B1%80%E5%9F%9F%E7%BD%91%E5%91%BD%E4%BB%A4.html</url>
+    <content type="text"><![CDATA[在命令行窗口下操作 在cmd命令行窗口下输入以下命令，对方就可以通过WiFi链接进入建立好的局域网。 前提：win10+无线网卡 123netsh wlan set hostednetwork mode=allow ssid=zconding key=12345678netsh wlan start hostednetwork]]></content>
+      <categories>
+        <category>生活</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>琐碎</tag>
+        <tag>随手记</tag>
       </tags>
   </entry>
   <entry>
@@ -92,19 +204,6 @@
       <tags>
         <tag>新手入门任务</tag>
         <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[开局域网]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2F%E7%90%90%E7%A2%8E%2F%E5%B1%80%E5%9F%9F%E7%BD%91%E5%91%BD%E4%BB%A4.html</url>
-    <content type="text"><![CDATA[在命令行窗口下操作 在cmd命令行窗口下输入以下命令，对方就可以通过WiFi链接进入建立好的局域网。 前提：win10+无线网卡 123netsh wlan set hostednetwork mode=allow ssid=zconding key=12345678netsh wlan start hostednetwork]]></content>
-      <categories>
-        <category>生活</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>随手记</tag>
-        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -143,9 +242,9 @@
         <category>交通仿真</category>
       </categories>
       <tags>
-        <tag>琐碎</tag>
         <tag>ubuntu</tag>
         <tag>环境配置</tag>
+        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -157,9 +256,9 @@
         <category>工具</category>
       </categories>
       <tags>
+        <tag>琐碎</tag>
         <tag>hexo</tag>
         <tag>随手记</tag>
-        <tag>琐碎</tag>
       </tags>
   </entry>
   <entry>
@@ -171,8 +270,8 @@
         <category>工具</category>
       </categories>
       <tags>
-        <tag>随手记</tag>
         <tag>琐碎</tag>
+        <tag>随手记</tag>
         <tag>git</tag>
       </tags>
   </entry>
