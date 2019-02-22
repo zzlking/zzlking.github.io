@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[博客索引]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogIndex.html</url>
-    <content type="text"><![CDATA[记录本网站各类文章分布 机器学习入门机器学习入门（一）https://zzlking.github.io/学习/机器学习/bkhomework180914.html机器学习入门（二）https://zzlking.github.io/学习/机器学习/bkhomework180920.html强化学习（留坑）Q-Learning算法https://zzlking.github.io/学习/强化学习/01_Q-Learning.html Seara算法https://zzlking.github.io/学习/强化学习/02_Seara.html DQN算法https://zzlking.github.io/学习/强化学习/03_DQN.html AC算法https://zzlking.github.io/学习/强化学习/04_AC.html DDPG算法https://zzlking.github.io/学习/强化学习/05_DDPG.html A2C算法https://zzlking.github.io/学习/强化学习/06_A2C.html A3C算法https://zzlking.github.io/学习/强化学习/07_A3C.html 交通仿真SUMO https://zzlking.github.io/学习/交通仿真/SUMO操作教程.htmlFlow https://zzlking.github.io/学习/交通仿真/Install_FLow.html读书笔记《人类简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《未来简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《今日简史》https://zzlking.github.io/生活/阅读/简史三部曲.html博客修改日志 https://zzlking.github.io/生活/工具/BlogLog.html]]></content>
+    <content type="text"><![CDATA[记录本网站各类文章分布 机器学习入门机器学习入门（一）https://zzlking.github.io/学习/机器学习/bkhomework180914.html机器学习入门（二）https://zzlking.github.io/学习/机器学习/bkhomework180920.html强化学习（留坑）Q-Learning算法 https://zzlking.github.io/学习/强化学习/01_Q-Learning.html Seara算法 https://zzlking.github.io/学习/强化学习/02_Seara.html DQN算法 https://zzlking.github.io/学习/强化学习/03_DQN.html AC算法 https://zzlking.github.io/学习/强化学习/04_AC.html DDPG算法 https://zzlking.github.io/学习/强化学习/05_DDPG.html A2C算法 https://zzlking.github.io/学习/强化学习/06_A2C.html A3C算法 https://zzlking.github.io/学习/强化学习/07_A3C.html 交通仿真SUMO https://zzlking.github.io/学习/交通仿真/SUMO操作教程.htmlFlow https://zzlking.github.io/学习/交通仿真/Install_FLow.html读书笔记《人类简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《未来简史》https://zzlking.github.io/生活/阅读/简史三部曲.html《今日简史》https://zzlking.github.io/生活/阅读/简史三部曲.html博客修改日志 https://zzlking.github.io/生活/工具/BlogLog.html]]></content>
       <categories>
         <category>生活</category>
         <category>工具</category>
@@ -13,8 +13,22 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Q-Learning]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F01_Q-Learning.html</url>
+    <title><![CDATA[Seara]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F02_Seara.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链 你好]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[DDPG]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F05_DDPG.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
@@ -41,8 +55,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[DDPG]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F05_DDPG.html</url>
+    <title><![CDATA[Q-Learning]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F01_Q-Learning.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
@@ -57,20 +71,6 @@
   <entry>
     <title><![CDATA[A3C]]></title>
     <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F07_A3C.html</url>
-    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
-      <categories>
-        <category>学习</category>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>Q-learning</tag>
-        <tag>hide</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Seara]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F02_Seara.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
@@ -113,7 +113,7 @@
   <entry>
     <title><![CDATA[博客修改日志]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2FBlogLog.html</url>
-    <content type="text"><![CDATA[记录本网站Next的所有所有修改 安装node和hexo官方hexo教程 https://hexo.io/zh-cn/docs/ 下载Next 6主题最简单的安装方式是直接克隆整个仓库： 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 常用的hexo命令12345678910111213141516# 生成静态文件hexo g # 在本地打开服务器（使用默认端口4000）hexo s# 上传到GitHub Pageshexo d# 在本地4001端口打开服务器hexo server -p 4001hexo new [layout] &lt;title&gt;hexo clean hexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo shexo clean &amp;&amp; hexo g &amp;&amp; hexo server -p 4001 对主题配置文件进行修改在主题目录中找到\themes\next\languages\zh_CN.yml增加 123menu: code: 学习 life: 生活 在主题目录中找到\themes\next\languages\_config.yml 12345menu: home: / || home code: /categories/学习/ || heartbeat life: /categories/生活/ || calendar categories: /categories/ || th 第78行 关闭Hexo支持，和主题 12345678910powered: # Hexo link (Powered by Hexo). enable: false # Version info of Hexo after Hexo link (vX.X.X). version: truetheme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: false # Version info of NexT after scheme info (vX.X.X). version: true 第496行 添加汉字标准格式排版，Pangu支持 12345678# Han Support# Dependencies: https://github.com/theme-next/theme-next-hanhan: true# Pangu Support# Dependencies: https://github.com/theme-next/theme-next-pangu# For more information: https://github.com/vinta/pangu.jspangu: true 第839行 设置点击图片可以全屏 fancybox: true 12cd themes/nextgit clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox 第872行 背景动画 12345cd themes/nextgit clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nestcanvas_nest: enable: true 增加评论系统第530行 https://ioliu.cn/2017/add-valine-comments-to-your-blog/ basic1234567891011valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: M21sDSlu8gdmqbUdoKrXILYS-gzGzoHsz # your leancloud application appid appkey: utJA9jhdKT7UHlpONQeaBlwD # your leancloud application appkey notify: false # mail notifier , https://github.com/xCss/Valine/wiki verify: false # Verification code placeholder: 在这里留下您的问题与建议 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors&apos; for counter compatibility. Article reading statistic https://valine.js.org/visitor.html 增加文章字数统计参考教材 在项目配置文件第添加 123456# 添加字数统计symbols_count_time: symbols: true time: true total_symbols: true total_time: true 修改主题配置文件，搜索symbols_count_time，快速定位，修改成以下代码 12345symbols_count_time: separated_meta: true item_text_post: true item_text_total: false awl: 4 统计访客人数修改第699行 12345678busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 增加首行缩进修改themes\next\layout\_partials\head\head.swig 123456789// 特定段落(标志 00SuoJin00)缩进$(&apos;p:contains(&quot;00SuoJin00&quot;)&apos;).each(function() &#123; var str = $(this).text(); if (str.match(&quot;^00SuoJin00&quot;)) &#123; var text = $(this).html(); $(this).css(&apos;text-indent&apos;, &apos;2em&apos;); $(this).html(text.replace(&apos;00SuoJin00&apos;, &apos;&apos;)); &#125;&#125;); 增加首页隐藏功能 有问题修改themes\next\layout\_partials\head\head.swig 1234567891011&#123;% block content %&#125; &lt;section id=&quot;posts&quot; class=&quot;posts-expand&quot;&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== &apos;hide&apos; %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include &apos;../pagination.swig&apos; %&#125;&#123;% endblock %&#125; 增加登陆密码修改themes\next\layout\_partials\head\head.swig 1234567891011&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if(&apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; if (prompt(&apos;请输入文章密码&apos;) !== &apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; alert(&apos;密码错误！&apos;); location.href=&apos;/&apos; &#125; &#125; &#125;)();&lt;/script&gt; 增加版权说明]]></content>
+    <content type="text"><![CDATA[记录本网站Next的所有所有修改 安装node和hexo官方hexo教程 https://hexo.io/zh-cn/docs/ 下载Next 6主题最简单的安装方式是直接克隆整个仓库： 12$ cd hexo$ git clone https://github.com/theme-next/hexo-theme-next themes/next 常用的hexo命令12345678910111213141516# 生成静态文件hexo g # 在本地打开服务器（使用默认端口4000）hexo s# 上传到GitHub Pageshexo d# 在本地4001端口打开服务器hexo server -p 4001hexo new [layout] &lt;title&gt;hexo clean hexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo shexo clean &amp;&amp; hexo g &amp;&amp; hexo server -p 4001 对主题配置文件进行修改在主题目录中找到\themes\next\languages\zh_CN.yml增加 123menu: code: 学习 life: 生活 在主题目录中找到\themes\next\languages\_config.yml 12345menu: home: / || home code: /categories/学习/ || heartbeat life: /categories/生活/ || calendar categories: /categories/ || th 第78行 关闭Hexo支持，和主题 12345678910powered: # Hexo link (Powered by Hexo). enable: false # Version info of Hexo after Hexo link (vX.X.X). version: truetheme: # Theme &amp; scheme info link (Theme - NexT.scheme). enable: false # Version info of NexT after scheme info (vX.X.X). version: true 第496行 添加汉字标准格式排版，Pangu支持 12345678# Han Support# Dependencies: https://github.com/theme-next/theme-next-hanhan: true# Pangu Support# Dependencies: https://github.com/theme-next/theme-next-pangu# For more information: https://github.com/vinta/pangu.jspangu: true 第839行 设置点击图片可以全屏 fancybox: true 12cd themes/nextgit clone https://github.com/theme-next/theme-next-fancybox3 source/lib/fancybox 第872行 背景动画 12345cd themes/nextgit clone https://github.com/theme-next/theme-next-canvas-nest source/lib/canvas-nestcanvas_nest: enable: true 增加评论系统第530行 https://ioliu.cn/2017/add-valine-comments-to-your-blog/ basic1234567891011valine: enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version. appid: M21sDSlu8gdmqbUdoKrXILYS-gzGzoHsz # your leancloud application appid appkey: utJA9jhdKT7UHlpONQeaBlwD # your leancloud application appkey notify: false # mail notifier , https://github.com/xCss/Valine/wiki verify: false # Verification code placeholder: 在这里留下您的问题与建议 # comment box placeholder avatar: mm # gravatar style guest_info: nick,mail,link # custom comment header pageSize: 10 # pagination size visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors&apos; for counter compatibility. Article reading statistic https://valine.js.org/visitor.html 增加文章字数统计参考教材 在项目配置文件第添加 123456# 添加字数统计symbols_count_time: symbols: true time: true total_symbols: true total_time: true 修改主题配置文件，搜索symbols_count_time，快速定位，修改成以下代码 12345symbols_count_time: separated_meta: true item_text_post: true item_text_total: false awl: 4 统计访客人数修改第699行，现在有错误，应该是卜蒜子的插件出问题了 12345678busuanzi_count: enable: true total_visitors: true total_visitors_icon: user total_views: true total_views_icon: eye post_views: true post_views_icon: eye 增加首行缩进修改themes\next\layout\_partials\head\head.swig 123456789// 特定段落(标志 00SuoJin00)缩进$(&apos;p:contains(&quot;00SuoJin00&quot;)&apos;).each(function() &#123; var str = $(this).text(); if (str.match(&quot;^00SuoJin00&quot;)) &#123; var text = $(this).html(); $(this).css(&apos;text-indent&apos;, &apos;2em&apos;); $(this).html(text.replace(&apos;00SuoJin00&apos;, &apos;&apos;)); &#125;&#125;); 增加首页隐藏功能 有问题修改themes\next\layout\_partials\head\head.swig 1234567891011&#123;% block content %&#125; &lt;section id=&quot;posts&quot; class=&quot;posts-expand&quot;&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== &apos;hide&apos; %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include &apos;../pagination.swig&apos; %&#125;&#123;% endblock %&#125; 增加登陆密码修改themes\next\layout\_partials\head\head.swig 1234567891011&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if(&apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; if (prompt(&apos;请输入文章密码&apos;) !== &apos;&#123;&#123; page.password &#125;&#125;&apos;)&#123; alert(&apos;密码错误！&apos;); location.href=&apos;/&apos; &#125; &#125; &#125;)();&lt;/script&gt; 增加版权说明]]></content>
       <categories>
         <category>生活</category>
         <category>工具</category>
@@ -147,8 +147,8 @@
         <category>办公</category>
       </categories>
       <tags>
-        <tag>hide</tag>
         <tag>琐碎</tag>
+        <tag>hide</tag>
         <tag>随手记</tag>
         <tag>计财处</tag>
       </tags>
@@ -194,6 +194,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[饥荒作弊命令]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%B8%B8%E6%88%8F%2F%E9%A5%A5%E8%8D%92.html</url>
+    <content type="text"><![CDATA[饥荒作弊命令 123456789# 显示全图minimap = TheSim:FindFirstEntityWithTag("minimap")minimap.MiniMap:ShowArea(0,0,0, 10000)# 将玩家传送到坐标【-55，97】上GetPlayer().Transform:SetPosition(-55,0,97)# 开启上帝建筑模式GetPlayer().components.builder:GiveAllRecipes()]]></content>
+      <categories>
+        <category>生活</category>
+        <category>游戏</category>
+      </categories>
+      <tags>
+        <tag>饥荒</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[机器学习入门任务01]]></title>
     <url>%2F%E5%AD%A6%E4%B9%A0%2F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%2Fbkhomework180914.html</url>
     <content type="text"><![CDATA[学习前提：有一定的编程基础（学过C语言基础语法，能熟练使用循环判断等语句，掌握排序算法） 学习任务： 在GitHub/GitLab注册账号，较为熟练的使用Git操作。建议使用 GitHub for Desktop 学习markdown，用哪个软件不做要求。以后学习笔记都使用markdown语法。 在GitHub/GitLab上建立一个笔记库。以后的学习笔记都必须上传到库中，我才认为你学会了。（注：如果用GitLab需将库权限设定为public）笔记的最好用如果用Jupyter：请参考格式1或者是markdown 搭建python环境，强烈建议安装anaconda3+PyCharm 学习Python基础语法，做一个成绩管理系统，至少达到如下需求： 输入并存储学生的信息：通过输入学生的学号、姓名、和分数，然后就可以把数据保存在建立的student文件里面。 打印学生的所有信息：通过一个打印函数就可以把所有的信息打印在屏幕上。 修改学生信息：这个功能首先通过查询功能查询出该学生是否存在，如果存在就对该学生的信息进行修改，如果不存在则返回到主界面。 删除学生信息：该功能是对相应的学生进行删除操作，如果学生存在就查找到进行删除。 按学生成绩进行排序： 这个功能是按照学生的成绩进行排序，对学生的信息进行操作。 查找学生信息：这个功能通过输入学号，查找该学生的信息，如果有该学号就输出该学生的信息，没有该学号就提示输入的学号不存在。 例子 如果用Jupyter：请参考格式1 如果用markdown：请参考格式2 格式3 (说明：格式2 虽然也是使用了Jupyter，但是它主要用的是markdown，下载下来看一遍就知道了) 【注】：建议同学们尽可能多的，把你们的学习总结成文档。（多参考技术类博客的教程是怎么做的）。另：本文介绍的软件我不做强制要求。只要能到达目的就好。比如还可以往GitHub里上传Jupyter的文件，如果有代码的时候最好用Jupyter。 【注2】：同学们做完的可以提前联系我。我好安排下一阶段的任务。]]></content>
@@ -204,18 +216,6 @@
       <tags>
         <tag>新手入门任务</tag>
         <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[饥荒作弊命令]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%B8%B8%E6%88%8F%2F%E9%A5%A5%E8%8D%92.html</url>
-    <content type="text"><![CDATA[饥荒作弊命令 123456789# 显示全图minimap = TheSim:FindFirstEntityWithTag("minimap")minimap.MiniMap:ShowArea(0,0,0, 10000)# 将玩家传送到坐标【-55，97】上GetPlayer().Transform:SetPosition(-55,0,97)# 开启上帝建筑模式GetPlayer().components.builder:GiveAllRecipes()]]></content>
-      <categories>
-        <category>生活</category>
-        <category>游戏</category>
-      </categories>
-      <tags>
-        <tag>饥荒</tag>
       </tags>
   </entry>
   <entry>
@@ -234,6 +234,20 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Hexo相关命令]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2Fhexo.html</url>
+    <content type="text"><![CDATA[Hexo相关命令，以及我对Hexo和Next的修改日志 hexo的apihttps://hexo.io/zh-cn/docs/writing.html hexo的常用命令12345678hexo server -p 4001hexo new [layout] &lt;title&gt;hexo clean hexo g hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo server -p 4001 评论系统https://ioliu.cn/2017/add-valine-comments-to-your-blog/ 修改日志特定段落缩进 123456789101112// 特定段落(标志ooNoIndent00)缩进// 是因为修改了~\blog\themes\next\source\js\src\bootstaps.js 文件// 添加了下面一段话// 特定段落(标志ooNoIndent00)缩进$('p:contains("ooNoIndent00")').each(function() &#123; var str = $(this).text(); if (str.match("ooNoIndent00")) &#123; var text = $(this).html(); $(this).css('text-indent', '0em'); $(this).html(text.replace('ooNoIndent00', '')); &#125;&#125;); 密码输入 12345678910111213// ~\blog\themes\next\layout\_partials\head.swig&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if('&#123;&#123; page.password &#125;&#125;')&#123; if (prompt('请输入文章密码') !== '&#123;&#123; page.password &#125;&#125;')&#123; alert('密码错误！'); location.href='/' &#125; &#125; &#125;)();&lt;/script&gt; 首页隐藏 1234567891011121314// ~\blog\themes\next\layout\index.swig&lt;!-- #增加个首页隐藏的功能 # --&gt;&#123;% block content %&#125; &lt;section id="posts" class="posts-expand"&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== 'hide' %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include '_partials/pagination.swig' %&#125;&#123;% endblock %&#125; 首行缩进 1234567// ~\blog\themes\next\source\css_custom\custom.styl:// Custom styles.// 设置段落首行缩进（text-indent），调整段落下部间距.post-body p &#123; text-indent: 0em; margin-bottom: 0.8em; &#125; 增加站点搜索功能搜索功能真心好用，当文章多起来的时候，标签提供的作用已经很少了，只能简单索引，搜索却能精确查找，这里我用的依旧是最简单的本地站内搜索。 安装插件 1npm install hexo-generator-searchdb --save 修改站点配置文件 12345search: path: search.xml field: post format: html limit: 10000 修改主题配置文件 12local_search: enable: true 修改hexo文章链接HEXO默认的文章链接形式为domain/year/month/day/postname，默认就是一个四级url，并且可能造成url过长，对搜索引擎是十分不友好的，我们可以改成 domain/postname 的形式。编辑站点_config.yml文件，修改其中的permalink字段改为permalink: :title.html即可。 站点地图https://www.cnblogs.com/php-linux/p/8493181.html]]></content>
+      <categories>
+        <category>生活</category>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>琐碎</tag>
+        <tag>随手记</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[在ubuntu下安装Flow]]></title>
     <url>%2F%E5%AD%A6%E4%B9%A0%2F%E4%BA%A4%E9%80%9A%E4%BB%BF%E7%9C%9F%2FInstall_FLow.html</url>
     <content type="text"><![CDATA[Flow是个基于SUMO的交通仿真程序，但是苦于不支持Windows系统，只支持Linux/MacOS系统。本文就是记录怎安装该软件 flow：Flow是一种用于交通微观仿真的深度RL和控制实验的计算框架。 一、前期环境准备1.1 Ubuntu换源参考链接：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/ 12sudo cp /etc/apt/sources.list /etc/apt/sources.list.oldsudo gedit /etc/apt/source.list 1.1 安装git1sudo apt-get install gits 1.2 安装Anaconda下载好.sh 文件 然后直接在命令行下运行 anaconda 换源 1234567conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/conda config --set show_channel_urls yes## 设置环境变量gedit ~/.bashrcexport PATH="/opt/STM/STLinux-2.3/devkit/sh4/bin:$PATH" 1.3 安装PyCharm1./******.sh 第一步：安装Flow 123456789git clone https://github.com/flow-project/flow.gitcd flow# create a conda environmentconda env create -f environment.ymlsource activate flowpython setup.py develop./scripts/setup_sumo_ubuntu1604.sh# install flow within the environment]]></content>
@@ -245,20 +259,6 @@
         <tag>ubuntu</tag>
         <tag>环境配置</tag>
         <tag>琐碎</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hexo相关命令]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%B7%A5%E5%85%B7%2Fhexo.html</url>
-    <content type="text"><![CDATA[Hexo相关命令，以及我对Hexo和Next的修改日志 hexo的apihttps://hexo.io/zh-cn/docs/writing.html hexo的常用命令12345678hexo server -p 4001hexo new [layout] &lt;title&gt;hexo clean hexo g hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo dhexo clean &amp;&amp; hexo g &amp;&amp; hexo server -p 4001 评论系统https://ioliu.cn/2017/add-valine-comments-to-your-blog/ 修改日志特定段落缩进 123456789101112// 特定段落(标志ooNoIndent00)缩进// 是因为修改了~\blog\themes\next\source\js\src\bootstaps.js 文件// 添加了下面一段话// 特定段落(标志ooNoIndent00)缩进$('p:contains("ooNoIndent00")').each(function() &#123; var str = $(this).text(); if (str.match("ooNoIndent00")) &#123; var text = $(this).html(); $(this).css('text-indent', '0em'); $(this).html(text.replace('ooNoIndent00', '')); &#125;&#125;); 密码输入 12345678910111213// ~\blog\themes\next\layout\_partials\head.swig&lt;!-- #增加个输入密码的功能 # --&gt;&lt;script&gt; (function()&#123; if('&#123;&#123; page.password &#125;&#125;')&#123; if (prompt('请输入文章密码') !== '&#123;&#123; page.password &#125;&#125;')&#123; alert('密码错误！'); location.href='/' &#125; &#125; &#125;)();&lt;/script&gt; 首页隐藏 1234567891011121314// ~\blog\themes\next\layout\index.swig&lt;!-- #增加个首页隐藏的功能 # --&gt;&#123;% block content %&#125; &lt;section id="posts" class="posts-expand"&gt; &#123;% for post in page.posts %&#125; &#123;% if post.visible !== 'hide' %&#125; &#123;&#123; post_template.render(post, true) &#125;&#125; &#123;% endif %&#125; &#123;% endfor %&#125; &lt;/section&gt; &#123;% include '_partials/pagination.swig' %&#125;&#123;% endblock %&#125; 首行缩进 1234567// ~\blog\themes\next\source\css_custom\custom.styl:// Custom styles.// 设置段落首行缩进（text-indent），调整段落下部间距.post-body p &#123; text-indent: 0em; margin-bottom: 0.8em; &#125; 增加站点搜索功能搜索功能真心好用，当文章多起来的时候，标签提供的作用已经很少了，只能简单索引，搜索却能精确查找，这里我用的依旧是最简单的本地站内搜索。 安装插件 1npm install hexo-generator-searchdb --save 修改站点配置文件 12345search: path: search.xml field: post format: html limit: 10000 修改主题配置文件 12local_search: enable: true 修改hexo文章链接HEXO默认的文章链接形式为domain/year/month/day/postname，默认就是一个四级url，并且可能造成url过长，对搜索引擎是十分不友好的，我们可以改成 domain/postname 的形式。编辑站点_config.yml文件，修改其中的permalink字段改为permalink: :title.html即可。 站点地图https://www.cnblogs.com/php-linux/p/8493181.html]]></content>
-      <categories>
-        <category>生活</category>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>琐碎</tag>
-        <tag>hexo</tag>
-        <tag>随手记</tag>
       </tags>
   </entry>
   <entry>
@@ -277,7 +277,7 @@
   </entry>
   <entry>
     <title><![CDATA[九月日记]]></title>
-    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%97%A5%E8%AE%B0%2Fdaily9.html</url>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%97%A5%E8%AE%B0%2Fdaily1809.html</url>
     <content type="text"><![CDATA[第一周 时间\日期 一/09.17 二/09.18 三/09.19 四/09.06 五/09.07 六/09.08 日/09.09 上午 8:00 9:00 10:00 11:00 下午 2:00 3:00 4:00 5:00 晚上 7:00 8:00 9:00 ooNoIndent00本周目标：搞定莫凡教学代码]]></content>
       <categories>
         <category>生活</category>
@@ -315,6 +315,19 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[五月日记]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%97%A5%E8%AE%B0%2Fdaily1805.html</url>
+    <content type="text"><![CDATA[2018年5月28日周​ 我认为机器学习是从数据中学习如何完成任务，最近思考的机器学习的分类，从任务上来分类的话，我想机器学习可以分为下面几个方面 关联 回归 分类 聚类 降维 本周计划： 强化学习文献综述 强化学习基础知识 分布式作业 英语GET考试准备 背单词 英语阅读 2018年5月30日​ 这两天一直在配置gym的环境，忽然发现没有意义。只要有迷宫可以用就好了。所以在window下就可以学习很多强化学习的东西。当然逆强化学习我还没有找到相关的代码 ​ 还有我找到了一个typora的皮肤用的挺舒服的，而且没有行距的问题，名字可能是Sans.css，不过在我的主题目录下是The.css 2018年5月31日​ 还有24天就要考GET了我现在还没有好好的复习，心里挺虚的接下来的时间我希望可以严格按照下面的计划来进行。每天都要把进度放到日记里。 上午英语​ 英语单词​ 英语听力​ 英语阅读​ 有周期的作文练习（三天一次？）下午课业 课程作业 阅读英文论文晚上_提高 ​ 代码练习 ​ 然而，我还有点迟疑的是。我接下来的记录是按照每个月记录呢还是按照每周的方式记录。记得以前我在书本上我是按照每个月的方式来记录的，而且还有周。大概每个月有四个周，相当于每个月有四个小阶段。可以用来总结。以后想要改之前的内容希望可以在用代码块的方式添加，而不是直接覆盖式的修改。 2018年6月1日​ 今天学习莫凡的强化学习教程中，有几个示例代码需要一个box2d的包，然后一直在纠结gym的box2d怎么安装，在网站上找了很久，找到了两个方法： 下载源码，在本地进行编译。box2d的python包，然后在再本地安装MingW，和wisg这个两个C++编译器。再根据步骤安装就好了。不过在中间步骤需要安装4g大小的一个windows build库。为了个几十兆的包装一个那么大的库。真的是浪费了。所以这个方法不到万不得已我是不会用的。 下载已经编译好的whl包，在python包的镜像网站中找到pybox2d和本地对应Python版本的包。注意：后是无法跳转到下载界面的会显示没有这个包，这个时候直接在迅雷里新建下载任务，然后把网址复制到里面就可以了，这个东西坑了我好多时间。然后跳转到下载目录，然后用用命令行执行pip install **.whl就安装好了 2018年6月2日 今天是周六，导师召集我们研一研二的同学开会，检查下上周学习的内容，然后布置下一步的学习任务。 本周总结：我的任务是：尽可能多的阅读关于多agent强化学习的论文。并找到对应代码进行理解。在这一周我找到了深度强化学习文献索引、多agent强化学习文献索引两个比大的汇总。其中找到了5个有代码的论文，这5份代码每个我都接触了一些，但是都没有详细的看。第5个还算看的多一些。并且在本地已经部署好了。不过本周的工作量很少，一直是很焦虑的情绪中渡过的。本该完成工作都没有完成。 2d半场足球赛 巴西利亚大学的本科毕设（两篇论文） 多agent比赛，历年代码（java） 两个agent打乒乓球 简单囚徒困境（两篇论文） 下周任务： 找一篇论文详细的看懂它（暂定看简单囚徒困境（两篇论文））用ppt详细讲解 要明白每个agent的状态矩阵是什么？ 要明白每个agent的行为矩阵是什么？ 状态和行为矩阵之间是怎么相互影响的？ 状态和行为矩阵是如何计算的 学习基本的强化学习概念（莫凡教学视频） 要明白单agent的状态矩阵是什么？ 要明白单agent的行为矩阵是什么？ 状态和行为矩阵之间是怎么相互影响的？ 状态和行为矩阵是如何计算的 一直在愁我的学术论文怎么才能写出来。现在想想需要以下几个能力 学习强化学习基础概念 学习多agent强化学习的原理 学习逆强化学习 找一个强化学习的场景，用逆强化学习来实现它 现在一个都不会啊，加油吧 2018年6月3日今天洗了一整天的衣服、床单被罩。 2018年6月4日2018年6月8日​ 今天我上午把老师给的Netlogo小程序给看懂了，这个小程序是一个酒馆问题。应用到了Multiagent的一些知识。我写了一个小ppt将程序中的矩阵变换的规律给找到了。 2018年6月11日​ 最可怕的是莫名就到了十一号了，这之前的几天我做了什么？是不是又荒废过去了？有点恐怖啊。一定要按时记日记，时刻提醒着自己，不要荒废。 ​ 现在一定要好好学英语！好好学英语！好好学英语！，我很担心没法按时毕业啊。当时不努力，现在徒伤悲啊。争取GET最低40分，这个是 必需的，这个地方不能输啊]]></content>
+      <categories>
+        <category>生活</category>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>五月</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[实验室索引]]></title>
     <url>%2F%E7%94%9F%E6%B4%BB%2F%E5%8A%9E%E5%85%AC%2F%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%B4%A2%E5%BC%95.html</url>
     <content type="text"><![CDATA[实验室导师简介郑皎凌：硕士生导师 【个人简介】 郑皎凌，女，副教授，生于1981年，中共党员，研究生学历，博士学位。学习计算机专业，获计算机科学与技术专业工学博士学位。现任四川省计算机学会大数据专委会委员. 【研究方向】 1．04(全日制)智能信息处理与知识工程 2．01(全日制)大数据分析与服务 【在研项目】 四川省教育厅重点课题，虚拟社会中个体间往复交互模式挖掘及其对虚拟社团形成和发展的影响 项目负责人 【完成项目】 1．社群大规模协作认知规律和演化模型挖掘，国家自然科学基金青年基金项目，项目负责人，2015年12月完成。 基于干预技术的复杂系统可信演化模型挖掘 四川省教育厅青年基金项目，项目负责人，2013年12月完成。 【发表论文】 1、郑皎凌、唐常杰、乔少杰、杨宁、李川、陈瑜、王悦 ，基于扰动的亚复杂动力系统因果关系挖掘 ，计算机学报, 12期,pp 2548-2563, 2014/12/15 ，EI 2、郑皎凌、舒红平、许源平、乔少杰、文立玉 ，基于社群联盟的冲突消解原则求解图着色问题,电子科技大学学报(自科版)，45(1)，pp 2-16，2016/1/1，EI 3、郑皎凌、舒红平、许源平、乔少杰、文立玉 ，Cooperation Oriented Computing: A Computing Model Based on Emergent Dynamics of Group Cooperation ，Big Data Technology and Applications, 2015/12/25-2015/12/26, pp 218-233, 2015/12/25, EI 4、Jiaoling Zheng，Changjie Tang，Shaojie Qiao，Ning Yang，Yue Wang,Mining Multi-scale Intervention Rules from Time Series and Complex Network,《International Journal of Computational Intelligence Systems》 , 2011 , 4 (4) :728-738，SCI 000297795000025 实验室资料索引 本文档主要作为“实验室数据库”的一个检索目录，以及功能介绍，本数据库依托gitlab总共有三方面的功能： 《实验室数据库》的根目录是：https://gitlab.com/CUITDMLab 《实验室数据库》的“代码库”地址是：https://gitlab.com/CUITDMLab/CodeBase 《实验室数据库》的“记录相关的库”地址是：https://gitlab.com/CUITDMLab/BMdocuments 《实验室数据库》的“学习笔记”：https://gitlab.com/CUITDMLab/StudyNotes CodeBase：储存学生期间做项目，打比赛的代码与数据。 实验室代码与数据请放到GitLab群组下：https://gitlab.com/CUITDMLab/CodeBase ，另外完整的项目请单独开一个“项目”，如果是学习代码，比如像学习了《机器学习实战》自己写的课后代码也请在该目录下新建项目。 BMdocuments：记录会议记录、每位同学的工作进度（一周一次）。 会议记录：请fork在项目BMdocuments，会议记录有学生记录并由老师确认后上传到GitLab。会议记录主要写开会的内容，以及每位学生下一周的学习任务。 学生学习进度：请fork在项目BMdocuments，学生不可以修改会议记录文件夹，只可以修改学生工作文件夹中属于自己的文件。学生工作进度分为两个部分：一、老师安排任务的完成情况。二、本周的学习情况（学了什么，有什么问题？） StudyNotes：记录学习笔记，学习经验。 参考 https://github.com/Jack-Lee-Hiter/AlgorithmsByPython 将学习的总结写到库中StudyNotes 实验室学生索引研17级_张中雷 研17级_邹长杰 研18级_蒋洛锋 研18级_赵大楼]]></content>
@@ -326,6 +339,19 @@
         <tag>hide</tag>
         <tag>实验室索引</tag>
         <tag>导师介绍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Readme]]></title>
+    <url>%2F%E7%94%9F%E6%B4%BB%2F%E6%97%A5%E8%AE%B0%2FReadme.html</url>
+    <content type="text"><![CDATA[Daily 这个git仓库是用来存放我的私人日记与学习笔记的。如果您不小心看到请关闭它。 ​ 以后每个月开一个新的文件，以月为单位存放日记。不过每个月中是再细分的周记，以后每周有周计划，所有的事情都是以周为单位。这样方便些。希望我可以坚持下来。做一个自律的人。从这每天一篇日记开始，记录自己的生活。 ​ 接下来我的代码在一个git组中，阅读的论文在一个git组中。我希望以后，我的生活要经得起复盘。还有我读的一些资料也可以再日记里写，如果以后很多了。我就在这个git库中单开一个文件夹记录每天查的资料。这样子就可以避免做很多重复劳动，从而白白浪费了时间。 so, just do it !]]></content>
+      <categories>
+        <category>生活</category>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>hide</tag>
+        <tag>五月</tag>
       </tags>
   </entry>
 </search>
