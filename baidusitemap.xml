@@ -3,6 +3,30 @@
 
 
     
+  <url>
+    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
+    <lastmod>2019-03-03T09:37:29.338Z</lastmod>
+    <data>
+        <display>
+        <title>博客修改日志</title>
+        <pubTime>2018-12-04T13:39:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>next</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+          
+             
+              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E9%98%85%E8%AF%BB/%E7%BE%8E%E6%96%87%E7%BE%8E%E5%8F%A5/%E4%B8%8A%E6%B5%B7%E7%9A%84%E5%B0%91%E5%A5%B3.html</loc>
@@ -202,31 +226,6 @@
           
              
               <breadCrumb title="强化学习" url="https://zzlking.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://zzlking.github.io/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/BlogLog.html</loc>
-    <lastmod>2019-01-26T08:30:37.310Z</lastmod>
-    <data>
-        <display>
-        <title>博客修改日志</title>
-        <pubTime>2018-12-04T13:39:15.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>next</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-          
-             
-              <breadCrumb title="工具" url="https://zzlking.github.io/categories/%E7%94%9F%E6%B4%BB/%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
@@ -618,9 +617,9 @@
         
         <tag>琐碎</tag>
          
-        <tag>随手记</tag>
-         
         <tag>hexo</tag>
+         
+        <tag>随手记</tag>
          
          
            
