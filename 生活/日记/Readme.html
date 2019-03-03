@@ -23,15 +23,6 @@
 
 <!-- #增加个输入密码的功能  # -->
 <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                location.href='/'
-            }
-        }
-    })();
-
     // 特定段落(标志 00SuoJin00)缩进
     $('p:contains("00SuoJin00")').each(function() {
       var str = $(this).text();
@@ -140,18 +131,18 @@
 
 
 
-  <meta name="description" content="Daily 这个git仓库是用来存放我的私人日记与学习笔记的。如果您不小心看到请关闭它。  ​    以后每个月开一个新的文件，以月为单位存放日记。不过每个月中是再细分的周记，以后每周有周计划，所有的事情都是以周为单位。这样方便些。希望我可以坚持下来。做一个自律的人。从这每天一篇日记开始，记录自己的生活。 ​    接下来我的代码在一个git组中，阅读的论文在一个git组中。我希望以后，我的生活要">
+  <meta name="description" content="The article has been encrypted, please enter your password to view.">
 <meta name="keywords" content="hide,五月">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Readme">
 <meta property="og:url" content="https://zzlking.github.io/生活/日记/Readme.html">
 <meta property="og:site_name" content="枫林渡">
-<meta property="og:description" content="Daily 这个git仓库是用来存放我的私人日记与学习笔记的。如果您不小心看到请关闭它。  ​    以后每个月开一个新的文件，以月为单位存放日记。不过每个月中是再细分的周记，以后每周有周计划，所有的事情都是以周为单位。这样方便些。希望我可以坚持下来。做一个自律的人。从这每天一篇日记开始，记录自己的生活。 ​    接下来我的代码在一个git组中，阅读的论文在一个git组中。我希望以后，我的生活要">
+<meta property="og:description" content="The article has been encrypted, please enter your password to view.">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-02-22T08:21:56.482Z">
+<meta property="og:updated_time" content="2019-03-03T10:10:21.110Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Readme">
-<meta name="twitter:description" content="Daily 这个git仓库是用来存放我的私人日记与学习笔记的。如果您不小心看到请关闭它。  ​    以后每个月开一个新的文件，以月为单位存放日记。不过每个月中是再细分的周记，以后每周有周计划，所有的事情都是以周为单位。这样方便些。希望我可以坚持下来。做一个自律的人。从这每天一篇日记开始，记录自己的生活。 ​    接下来我的代码在一个git组中，阅读的论文在一个git组中。我希望以后，我的生活要">
+<meta name="twitter:description" content="The article has been encrypted, please enter your password to view.">
 
 
 
@@ -478,7 +469,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-02-22 16:21:56" itemprop="dateModified" datetime="2019-02-22T16:21:56+08:00">2019-02-22</time>
+                <time title="修改时间：2019-03-03 18:10:21" itemprop="dateModified" datetime="2019-03-03T18:10:21+08:00">2019-03-03</time>
               
             
           </span>
@@ -548,7 +539,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">303</span>
+                <span title="本文字数">3.4k</span>
               
 
               
@@ -562,11 +553,13 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">1 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
 
+          
+              <div class="post-description">The article has been encrypted, please enter your password to view.</div>
           
 
         </div>
@@ -582,13 +575,20 @@
       
 
       
-        <h1 id="Daily"><a href="#Daily" class="headerlink" title="Daily"></a>Daily</h1><blockquote>
-<p>这个git仓库是用来存放我的私人日记与学习笔记的。如果您不小心看到请关闭它。</p>
-</blockquote>
-<p>​    以后每个月开一个新的文件，以月为单位存放日记。不过每个月中是再细分的周记，以后每周有周计划，所有的事情都是以周为单位。这样方便些。希望我可以坚持下来。做一个自律的人。从这每天一篇日记开始，记录自己的生活。</p>
-<p>​    接下来我的代码在一个git组中，阅读的论文在一个git组中。我希望以后，我的生活要经得起复盘。还有我读的一些资料也可以再日记里写，如果以后很多了。我就在这个git库中单开一个文件夹记录每天查的资料。这样子就可以避免做很多重复劳动，从而白白浪费了时间。</p>
-<p><strong>so,  just do it !</strong></p>
-
+        <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="请输入文章密码" />
+    <label for="pass">请输入文章密码</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
       
     </div>
 
@@ -706,17 +706,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -735,7 +726,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">27</span>
+                    <span class="site-state-item-count">26</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -845,7 +836,7 @@
                     
                       
                     
-                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-count">30</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -870,22 +861,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Daily"><span class="nav-number">1.</span> <span class="nav-text">Daily</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -914,7 +889,7 @@
     
       <span class="post-meta-item-text">站点总字数：</span>
     
-    <span title="站点总字数">19k</span>
+    <span title="站点总字数">22k</span>
   
 
   
@@ -925,7 +900,7 @@
     
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
     
-    <span title="站点阅读时长">18 分钟</span>
+    <span title="站点阅读时长">20 分钟</span>
   
 </div>
 
