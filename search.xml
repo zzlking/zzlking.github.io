@@ -53,8 +53,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[AC]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F04_AC.html</url>
+    <title><![CDATA[DQN]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F03_DQN.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
@@ -81,8 +81,22 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[A3C]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F07_A3C.html</url>
+    <title><![CDATA[AC]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F04_AC.html</url>
+    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
+      <categories>
+        <category>学习</category>
+        <category>强化学习</category>
+      </categories>
+      <tags>
+        <tag>强化学习</tag>
+        <tag>Q-learning</tag>
+        <tag>hide</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Q-Learning]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F01_Q-Learning.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
@@ -109,22 +123,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[DQN]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F03_DQN.html</url>
-    <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
-      <categories>
-        <category>学习</category>
-        <category>强化学习</category>
-      </categories>
-      <tags>
-        <tag>强化学习</tag>
-        <tag>Q-learning</tag>
-        <tag>hide</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Q-Learning]]></title>
-    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F01_Q-Learning.html</url>
+    <title><![CDATA[A3C]]></title>
+    <url>%2F%E5%AD%A6%E4%B9%A0%2F%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%2F07_A3C.html</url>
     <content type="text"><![CDATA[本文学习，强化学习算法领域中，最基础的算法Q-Learning 马尔科夫链]]></content>
       <categories>
         <category>学习</category>
